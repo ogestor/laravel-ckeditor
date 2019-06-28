@@ -17,7 +17,7 @@ It provides a custom blade directive `@ckeditor('textareaId')` to quickly integr
 1. Require the package using composer:
 
     ```
-    composer require jeroennoten/laravel-ckeditor
+    composer require ogestor/laravel-ckeditor
     ```
 
 2. Add the service provider to the `providers` in `config/app.php`:
@@ -37,10 +37,10 @@ It provides a custom blade directive `@ckeditor('textareaId')` to quickly integr
 1. To update this package, first update the composer package:
 
     ```
-    composer update jeroennoten/laravel-ckeditor
+    composer update ogestor/laravel-ckeditor
     ```
 
-2. Then, publish the public assets with the `--force` flag to overwrite existing files
+2. Then, if you have laravel 5.4 or less, publish the public assets with the `--force` flag to overwrite existing files
 
     ```
     php artisan vendor:publish --tag=ckeditor-assets --force
