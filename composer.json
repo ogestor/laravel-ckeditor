@@ -1,5 +1,5 @@
 {
-    "name": "jeroennoten/laravel-ckeditor",
+    "name": "ogestor/laravel-ckeditor",
     "description": "Laravel CKEditor",
     "keywords": ["laravel", "ckeditor", "wysiwyg"],
     "license": "MIT",
